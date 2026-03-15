@@ -1,0 +1,33 @@
+﻿[dotenv@17.3.1] injecting env (7) from .env -- tip: ΓÜÖ∩╕Å  load multiple .env files with { path: ['.env.local', '.env'] }
+Testing OpenAI API with key: Present (Starts with sk-proj)
+node : OpenAI Error 
+Details:
+At line:1 char:1
++ node test_openai.js 
+*>> test_output_v3.txt
++ ~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo     
+         : NotSpecifi  
+  ed: (OpenAI Error    
+ Details::String) [    
+], RemoteException
+    + FullyQualifiedEr 
+   rorId : NativeComm  
+  andError
+ 
+Status: 429
+Code: 
+insufficient_quota
+Type: 
+insufficient_quota
+Message: 429 You 
+exceeded your current 
+quota, please check 
+your plan and billing 
+details. For more 
+information on this 
+error, read the docs: h
+ttps://platform.openai.
+com/docs/guides/error-c
+odes/api-errors.
